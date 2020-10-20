@@ -43,3 +43,8 @@ D:\Visual C#\Lap07-Visual-C-\U44\HamburgerAdaptiveLayout\obj\x86\Debug\qualifier
 D:\Visual C#\Lap07-Visual-C-\U44\HamburgerAdaptiveLayout\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\Visual C#\Lap07-Visual-C-\U44\HamburgerAdaptiveLayout\obj\x86\Debug\ProjectArchitectures.txt
 D:\Visual C#\Lap07-Visual-C-\U44\HamburgerAdaptiveLayout\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885058160000000.json
+D:\Visual C#\Lap07-Visual-C-\U44\HamburgerAdaptiveLayout\bin\x86\Debug\NewsItemControl.xbf
+D:\Visual C#\Lap07-Visual-C-\U44\HamburgerAdaptiveLayout\obj\x86\Debug\NewsItemControl.g.i.cs
+D:\Visual C#\Lap07-Visual-C-\U44\HamburgerAdaptiveLayout\obj\x86\Debug\NewsItemControl.g.cs
+D:\Visual C#\Lap07-Visual-C-\U44\HamburgerAdaptiveLayout\obj\x86\Debug\NewsItemControl.xaml
+D:\Visual C#\Lap07-Visual-C-\U44\HamburgerAdaptiveLayout\obj\x86\Debug\NewsItemControl.xbf

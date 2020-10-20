@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Visual C#\Lap07-Visual-C-\U44\HamburgerAdaptiveLayout\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-16T16:39:35.795</Modified>
+      <Modified>2020-10-20T02:46:02.948</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Visual C#\Lap07-Visual-C-\U44\HamburgerAdaptiveLayout\bin\x86\Debug\HamburgerAdaptiveLayout.exe">
       <PackagePath>entrypoint\HamburgerAdaptiveLayout.exe</PackagePath>
-      <Modified>2020-10-16T16:39:31.729</Modified>
+      <Modified>2020-10-20T02:46:01.783</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -50,9 +50,9 @@
       <PackagePath>Assets\neo-2018.jpg</PackagePath>
       <Modified>2020-10-16T16:23:40.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual C#\Lap07-Visual-C-\U44\HamburgerAdaptiveLayout\Assets\neo-cartoon.jpg">
-      <PackagePath>Assets\neo-cartoon.jpg</PackagePath>
-      <Modified>2020-10-16T16:22:29.072</Modified>
+    <AppxPackagedFile Include="D:\Visual C#\Lap07-Visual-C-\U44\HamburgerAdaptiveLayout\Assets\neo-2019.jpg">
+      <PackagePath>Assets\neo-2019.jpg</PackagePath>
+      <Modified>2020-10-20T02:03:00.538</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual C#\Lap07-Visual-C-\U44\HamburgerAdaptiveLayout\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -94,15 +94,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual C#\Lap07-Visual-C-\U44\HamburgerAdaptiveLayout\bin\x86\Debug\HamburgerAdaptiveLayout.xr.xml">
       <PackagePath>HamburgerAdaptiveLayout.xr.xml</PackagePath>
-      <Modified>2020-10-16T16:39:30.705</Modified>
+      <Modified>2020-10-20T02:46:01.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual C#\Lap07-Visual-C-\U44\HamburgerAdaptiveLayout\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-16T16:39:30.753</Modified>
+      <Modified>2020-10-20T02:46:01.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual C#\Lap07-Visual-C-\U44\HamburgerAdaptiveLayout\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-16T16:39:30.754</Modified>
+      <Modified>2020-10-20T02:46:01.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Visual C#\Lap07-Visual-C-\U44\HamburgerAdaptiveLayout\bin\x86\Debug\NewsItemControl.xbf">
+      <PackagePath>NewsItemControl.xbf</PackagePath>
+      <Modified>2020-10-20T02:46:01.434</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -110,11 +114,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual C#\Lap07-Visual-C-\U44\HamburgerAdaptiveLayout\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-10-16T16:39:32.761</Modified>
+      <Modified>2020-10-20T02:03:49.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual C#\Lap07-Visual-C-\U44\HamburgerAdaptiveLayout\bin\x86\Debug\Core\HamburgerAdaptiveLayout.exe">
       <PackagePath>HamburgerAdaptiveLayout.exe</PackagePath>
-      <Modified>2020-10-16T16:39:35.715</Modified>
+      <Modified>2020-10-20T02:46:02.929</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -15,6 +15,29 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState x:Name="NarrowLayout">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="MyAutoSuggestBox.Visiblity"
+                                Value="Collapsed"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="WideLayout">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="400"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="MyAutoSuggestBox.Visiblity"
+                                Value="Visible"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        
         <RelativePanel>
             <Button Name="HamburgerButton"
                     RelativePanel.AlignLeftWithPanel="True"
@@ -25,7 +48,6 @@
                     Height="45"
                     HorizontalAlignment="Center"
                     Click="HamburgerButton_Click"/>
-
 
             <TextBlock Name="TitleTextBlock"
                        RelativePanel.RightOf="HamburgerButton"
@@ -38,7 +60,7 @@
                             PlaceholderText="Search"
                             RelativePanel.AlignRightWithPanel="True"
                             Width="200"
-                            Margin="0, 0, 10, 0"/>
+                            Margin="0, 5, 10, 0"/>
         </RelativePanel>
 
         <SplitView Name="MySplitView"
@@ -61,8 +83,6 @@
                         </StackPanel>
                     </ListBoxItem>
 
-
-
                     <ListBoxItem Name="Food">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock
@@ -78,22 +98,14 @@
             </SplitView.Pane>
             
             <SplitView.Content>
-                <GridView Name="NewsItemGrid" HorizontalAlignment="Stretch"
+                <GridView Name="NewsItemGrid"
+                          Background="LightGray"
+                          ItemsSource="{x:Bind NewsItems}"
+                          HorizontalAlignment="Stretch"
                           Margin="10, 0, 0, 0">
                     <GridView.ItemTemplate>
                         <DataTemplate x:DataType="data:NewsItem">
-                            <Grid Background="White" Margin="10" Height="275" Width="200">
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="Auto"/>
-                                    <RowDefinition Height="*"/>
-                                </Grid.RowDefinitions>
-                                <Image Name="MyImage" Source="{x:Bind Image}"/>
-                                <RelativePanel Grid.Row="1">
-                                    <TextBlock Text="{x:Bind Headline}"/>
-                                    <TextBlock Text="{x:Bind Subhead}"/>
-                                    <TextBlock Text="{x:Bind DataLine}"/>
-                                </RelativePanel>
-                            </Grid>
+                            <local:NewsItemControl/>
                         </DataTemplate>
                     </GridView.ItemTemplate>
                 </GridView>
